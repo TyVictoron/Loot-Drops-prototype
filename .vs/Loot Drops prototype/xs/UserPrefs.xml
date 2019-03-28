@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A0ADACB4-B40B-243A-CD62-AB643452D3EA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LootManager.cs">
+    <Files>
+      <File FileName="Assets/Player.cs" Line="10" Column="7" />
+      <File FileName="Assets/LootManager.cs" Line="43" Column="88" />
+      <File FileName="Assets/Item.cs" Line="13" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Loot Drops prototype" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="LootManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

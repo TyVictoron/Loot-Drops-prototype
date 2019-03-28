@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1599371594990982}
+  m_IsPrefabAsset: 1
+--- !u!1 &1599371594990982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4721516166171100}
+  - component: {fileID: 114187600451086434}
+  m_Layer: 0
+  m_Name: LootManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4721516166171100
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599371594990982}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000016292068}
+  m_LocalPosition: {x: 4.4010363, y: 1.4, z: 2.067883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114187600451086434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599371594990982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a691b388556453fb8dd4e44b6e6ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootModel: {fileID: 1463423879486242, guid: 5011f0765169046dc9f4e26c1632ab01, type: 2}
+  rarityMats:
+  - {fileID: 2100000, guid: 462c252401fef487e955a48ab46d4172, type: 2}
+  - {fileID: 2100000, guid: bdb18c25392024267b0c03b285ea5a8d, type: 2}
+  - {fileID: 2100000, guid: a5d10bca6e10842bf85f182876285037, type: 2}
+  - {fileID: 2100000, guid: 80e8e17abb2c04d9eb8c89a6432a50bb, type: 2}
+  - {fileID: 2100000, guid: 9ec54238d84464b859ac3461b3157c9b, type: 2}
+  gunTypes:
+  - AutoRifle
+  - Pistol
+  - HandCannon
+  - MarksmansRifle
+  - BurstRifle
+  - Rocket
+  - Machinegun
+  - Minigun
+  - Sniper
+  - DirectedEnergyRifle
+  - SMG
+  rarities:
+  - Common
+  - Uncommon
+  - Rare
+  - Epic
+  - Legendary
+  magazineCapacities: 0a0000000f00000014000000190000001e00000023000000280000002d00000032000000370000003c00000041000000460000004b000000500000005f00000064000000
+  reservesCapacities: 6400000096000000c8000000fa0000002c0100005e01000090010000c2010000f401000026020000580200008a020000bc020000ee02000020030000b6030000e8030000
+  elements:
+  - Fire
+  - Void
+  - Electric
+  - Ice
+  slot1Perks:
+  - X2 Magnification
+  - X0.5 Magnification
+  - Quick Zoom
+  - Iron Sights
+  slot2Perks:
+  - Extra Magazine Capacity
+  - Rampage
+  - Quick Zoom
+  - Extra Reserves Capacity
+  - Kill Clip
+  - Firefly
+  slot3Perks:
+  - Extra Magazine Capacity
+  - Rampage
+  - Quick Zoom
+  - Extra Reserves Capacity
+  - Kill Clip
+  - Firefly
+  traitPerks:
+  - Extra Magazine and Reserves Capacity
+  - Explosive Rounds
+  - Perpetual Radar
